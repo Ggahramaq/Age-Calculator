@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'marker';
+    src: url('123marker.ttf');
+}
+
+* {
+    font-family: marker;
+}
+
+.container { 
+    text-align: center;
+    margin-top: 230px;
+}
+
+h1{
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.birthdate {
+    margin-bottom: 5px;
+    margin-right: 90px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    color: #ffffff;
+    background-color: #525252;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 285px;
+    height: 40px;
+    transition: 0.4s ease;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
