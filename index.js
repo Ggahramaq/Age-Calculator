@@ -32,7 +32,7 @@ function calculate() {
   const months = Math.floor(diff.months);
   const days = Math.floor(diff.days);
 
-  if (years === 0 && months === 0 && days === 0) return "You were born today <span> or </span> you wrote the date incorrectly.";
+  if (years === 0 && months === 0 && days === 0) return "You were born today";
   if (years > today.year - 1900) return `Select a valid year`
 
   let result = "You are ";
